@@ -1,0 +1,59 @@
+.post button:hover {
+    background-color: linear-gradient(red, green, pink);
+    color: aqua;
+}
+
+button {
+    background: linear-gradient(to top right, red, maroon);
+    color: black;
+    font-size: 50px;
+    padding-inline-start: 5%;
+    padding-inline: 4%;
+    padding-block: 4%;
+    transition: 10s;
+}
+
+form {
+    background-image: url(reflection.jpg);
+    padding: left 2px;
+    color: cornflowerblue;
+    border: none;
+    width: none;
+    height: auto;
+    margin: auto;
+    display: block;
+
+}
+
+span {
+    background: linear-gradient(to top right, red, maroon);
+}
+
+input {
+    background-image: url(Screenshot\ 2023-10-01\ at\ 12-49-42\ Sarika\ 🇧🇩\ on\ Instagram.png);
+    font-family: 'Courier New', Courier, monospace;
+    color: inherit;
+    border-color: rgb(255, 148, 127);
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.webp) 30 round;
+    border-style: dotted solid;
+    font-size: large;
+    padding-left: 30px;
+}
+
+input [type="text"] {
+    color: greenyellow;
+}
+
+button:hover {
+    /* background-image: url(https: //play-lh.googleusercontent.com/wLGeewLp4VgAOHEV-1NYxCB7WJIrjVWGJsNbiYZbX7-7WF8oJe0KyueueOZkxO9MWQ=w526-h296-rw); */
+    background: linear-gradient(to right, black, black);
+
+    font-size: 50px;
+    color: red;
+}
+
+button:active {
+    background: linear-gradient(to right, rgba(207, 229, 95, 0.519), black);
+}

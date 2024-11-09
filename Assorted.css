@@ -1,0 +1,88 @@
+div {
+    background-color: red;
+
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    border-color: linear-gradient(blue, white);
+    border-radius: 20%;
+    /* transition: all 1s; */
+}
+
+#middle {
+    /* background-image: linear-gradient(cyan, rgb(30, 170, 217)); */
+    background-color: rgb(211, 30, 217);
+    transition: all 3s;
+}
+
+#static #middle {
+    position: static;
+    top: 100px;
+    background-color: red;
+    margin: 0px 10px 20px;
+
+    transition: background 3s border-radius 0.5s margin-left 0.01s ease-in;
+}
+
+
+#relative #middle {
+    position: relative;
+    top: 0px;
+    bottom: 50px;
+    right: 00px;
+    left: 00px;
+    background: linear-gradient(cyan, rgb(30, 170, 217));
+    transition: color 10s;
+
+}
+
+#absolute #middle {
+    position: absolute;
+    top: 730px;
+    bottom: 50px;
+    right: 00px;
+    left: 550px;
+    background: linear-gradient(cyan, rgb(30, 170, 217));
+    transition: background 1s;
+}
+
+#fixed #middle {
+    position: fixed;
+    top: 1065px;
+    bottom: 50px;
+    right: 00px;
+    left: 550px;
+    background: linear-gradient(cyan, rgb(30, 170, 217));
+    margin: 0px;
+    transition: margin-left 3s;
+
+}
+
+p {
+    font-style: oblique;
+    font-size: large;
+}
+
+#static #middle:hover {
+    background: yellow;
+    border-radius: 10%;
+    margin-left: 200px;
+}
+
+#relative #middle:hover {
+    background: linear-gradient(violet, purple);
+    border-radius: 50%;
+}
+
+#absolute #middle:hover {
+    background: linear-gradient(violet, purple);
+    border-radius: 50%;
+}
+
+#fixed #middle:hover {
+    background: linear-gradient(violet, purple);
+    border-radius: 50%;
+    margin-left: 200px;
+}

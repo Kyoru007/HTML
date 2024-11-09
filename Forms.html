@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gundam meister registration</title>
+    </head>
+
+    <body>
+        <link rel="stylesheet" href="forms.css">
+        <h1>Forms Demo</h1>
+        <form action="gundam">
+
+            <p><label for="username">Enter a Username:</label>
+                <input id="username" type="text" placeholder="text" name="username">
+            </p>
+
+            <p>
+                <label for="password">password</label>
+                <input id="password" type="password" placeholder="password" name="password">
+            </p>
+            <p><label for="color">color</label>
+                <input id="color" type="color" name="color">
+            </p>
+            <p><label for="number">number</label>
+                <input id="number" type="number" placeholder="number" name="number" min="1" max="100">
+            </p>
+            <p><label for="datetime">datetime</label>
+                <input id="datetime" type="datetime" placeholder="datetime" name="datetime">
+            </p>
+            <button type="submit">Submit</button>
+            <input type="submit" value="hi">
+        </form>
+        <hr>
+        
+        <span>hello</span>
+        <hr>
+        <form action="https://www.netflix.com/search">
+            <input type="text" name="q">
+            <button>NETFLIX</button>
+        </form>
+        <hr>
+        <h2>More Inputs!</h2>
+        <form action="GUNDAM.html">
+            <input type="checkbox" name="Size" id="agree" checked>
+            <label for="agree">I agree</label>
+            <p>
+                <input type="radio" name="Size" id="S" checked>
+                <label for="S">small</label>
+                <input type="radio" name="Size" id="m" checked>
+                <label for="m">Medium</label>
+                <input type="radio" name="Size" id="l" checked>
+                <label for="l">large</label>
+            </p>
+            <p>
+                <label for="gundam">Please Select a gundam</label>
+                <select name="gundam" id="gundam">
+                    <option value="Astray">Astray</option>
+                    <option value="EXIA">EXIA</option>
+                    <option value="Unicorn">Unicorn</option>
+                    <option value="Barbatos">Barbatos</option>
+                </select>
+            </p>
+            <p>
+                <label for="range">GN particle</label>
+                <input type="range" name="GN particle" id="range">
+
+            </p>
+            <p>
+                <label for="textarea">pilot description</label><br>
+                <textarea name="desc" id="textarea" placeholder="text"></textarea>
+            </p>
+            <p>
+            <h2>Validation</h2>
+            <form action="/dummy">
+                <label for="first">Enter First Name</label>
+                <input type="text" name="first" id="first" required>
+                <p>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" minlength="5" maxlength="50">
+
+                </p>
+            </form>
+            </p>
+
+            <button>Submit</button>
+        </form>
+    </body>
+
+</html>

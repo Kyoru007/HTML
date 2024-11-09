@@ -1,0 +1,117 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.jpg?w=1380&t=st=1699424835~exp=1699425435~hmac=ee6bc441b3ab172daaa6ff2ae99b3182447228c446d21c8c2fbf6f1d793d00f3);
+    background-size: cover;
+}
+
+
+
+h1 {
+    background-image: linear-gradient(to right, red, orange);
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 10px;
+    display: inline-BLOCK;
+
+}
+
+span {
+    background-image: linear-gradient(to right, red, rgb(255, 94, 0));
+    border: 1px purple;
+    margin: 50px;
+    padding: 10px;
+    display: inline;
+    width: auto;
+}
+
+p {
+    font-size: 3em;
+    color: white;
+}
+
+section {
+    height: 400px;
+    width: 200px;
+}
+
+#div1 {
+    height: 150px;
+    width: 20px;
+    background-image: linear-gradient(white, #4FFFB0, #17B169, #17B169, #00563B);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+#div2 {
+    height: 150px;
+    width: 20px;
+    background-image: linear-gradient(white, rgb(243, 162, 162), rgb(244, 91, 117), red);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+#div3 {
+    height: 150px;
+    width: 20px;
+    background-image: linear-gradient(rgb(0, 255, 247), rgb(0, 204, 255), rgb(49, 149, 255), rgb(39, 100, 239), rgb(48, 50, 191), rgb(65, 25, 180), rgb(82, 25, 188), rgb(82, 0, 188));
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+#div4 {
+    height: 150px;
+    width: 20px;
+    background-image: linear-gradient(yellow, rgb(246, 200, 0), rgb(255, 140, 0), rgb(255, 100, 0), rgb(255, 84, 0), rgb(255, 64, 0), red, rgb(203, 0, 0));
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* #bi {
+    height:500px;
+    width:100px;
+    background-image: linear-gradient(rgb(241, 13, 13),blue);} */
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: brown;
+}
+
+button {
+    background-color: aquamarine;
+    font-size: 1em;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+}
+
+article {
+    font-size: 10px;
+    color: aqua
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 1.5rem;
+}
+
+#rems h2 {
+    font-size: 2rem;
+}
+
+#rems h3 {
+    font-size: 3em;
+}
+
+#rems ul {
+    font-size: 1.5rem;
+}
+
+#rems p {
+    font-size: 1.5rem;
+}
